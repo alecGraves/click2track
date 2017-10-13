@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-from colortool import rgb2hsv
 
 def ClickColor(event, x, y, flags, param):
     global lowerBound, upperBound, img
